@@ -20,4 +20,4 @@ latest_posts:
 
 This is a personal site where I organize my thoughts, ideas, and study notes about math, machine learning, and other interesting things.
 
-The easiest way to contact me is via LinkedIn -- you can find the link to my profile at the bottom of the page. Feel free to reach out if you notice a mistake in my posts or just want to discuss something else.
+The easiest way to contact me is via Reddit -- you can find the link to my profile at the bottom of the page. Feel free to reach out if you notice a mistake in my posts or just want to discuss something else.

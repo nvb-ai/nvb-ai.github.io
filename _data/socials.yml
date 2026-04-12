@@ -1,4 +1,8 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+reddit_username:
+  logo: fa-brands fa-reddit
+  title: Reddit
+  url: https://www.reddit.com/user/nvb-ai
 linkedin_username: nhat-vu-8b214887 # your LinkedIn username
