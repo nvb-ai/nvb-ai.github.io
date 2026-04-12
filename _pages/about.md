@@ -9,7 +9,7 @@ profile:
   image: about/portrait.png
   image_circular: false # crops the image to make it circular
   more_info: > 
-    Very accurate portrait of me
+    A very accurate portrait of me
 social: true # includes social icons at the bottom of the page
 
 latest_posts:
