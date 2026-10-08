@@ -24,6 +24,7 @@ hr {
 }
 
 table {
+
   td,
   th {
     font-size: 1rem;
@@ -51,9 +52,38 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
+}
+
+/* Boxed math environments, e.g. <div class="definition" markdown="1"> */
+.definition {
+  background-color: var(--global-code-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  >p:first-child>strong:first-child {
+    color: var(--global-theme-color);
+  }
+}
+
+/* Distill puts an <aside> on the same grid row as the preceding block:
+   keep the box at its own height and line the aside up with its top edge. */
+d-article .definition {
+  align-self: start;
+}
+
+d-article .definition+aside {
+  margin-top: 1.5rem;
 }
 
 blockquote {
