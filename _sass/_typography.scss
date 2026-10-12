@@ -58,8 +58,8 @@ table.table a {
   }
 }
 
-/* Boxed math environments, e.g. <div class="definition" markdown="1"> */
-.definition {
+/* Boxed math environments, e.g. <div class="box" markdown="1"> */
+.box {
   background-color: var(--global-code-bg-color);
   border: 1px solid var(--global-divider-color);
   border-left: 4px solid var(--global-theme-color);
@@ -78,11 +78,11 @@ table.table a {
 
 /* Distill puts an <aside> on the same grid row as the preceding block:
    keep the box at its own height and line the aside up with its top edge. */
-d-article .definition {
+d-article .box {
   align-self: start;
 }
 
-d-article .definition+aside {
+d-article .box+aside {
   margin-top: 1.5rem;
 }
 
