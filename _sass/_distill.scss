@@ -51,6 +51,9 @@ d-article {
   blockquote {
     border-left: 2px solid var(--global-theme-color) !important;
   }
+  figcaption {
+    color: var(--global-text-color-light) !important;
+  }
 
   // Style taken from code blocks
   details {
